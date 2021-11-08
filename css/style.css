@@ -14,7 +14,7 @@ header h2 {
     color: #CEC8FF;
 }
 
-.site-footer {
+footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
@@ -29,4 +29,9 @@ header h2 {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
