@@ -12,3 +12,22 @@ $(function() {
         }
     });
 });
+
+// Reserve Campsite Modal
+$(document).ready(function(){
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal('show');
+    });
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal('hide');
+    });
+});
+
+$(document).ready(function(){
+    $("#loginButton").click(function(){
+        $("#loginModal").modal('show');
+    });
+    $("#loginButton").click(function(){
+        $("#loginModal").modal('hide');
+    });
+});
